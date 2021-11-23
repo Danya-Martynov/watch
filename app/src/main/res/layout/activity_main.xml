@@ -30,7 +30,7 @@
             android:layout_height="26dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@color/aquamarine"
+            android:background="@drawable/solid"
             android:onClick="sign"
             android:text="Sign-in"
             android:textAllCaps="false"

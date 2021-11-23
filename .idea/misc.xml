@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/watch/app/src/main/res/drawable/corner.xml" value="1.6035714285714286" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/watch/app/src/main/res/drawable/solid.xml" value="1.6035714285714286" />
         <entry key="..\:/Users/User/AndroidStudioProjects/watch/app/src/main/res/layout/activity_main.xml" value="0.9076576576576577" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/watch/app/src/main/res/layout/activity_result.xml" value="2.3321428571428573" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/watch/app/src/main/res/layout/activity_result.xml" value="0.6881720430107527" />
         <entry key="..\:/Users/User/AndroidStudioProjects/watch/app/src/main/res/layout/activity_sign_in.xml" value="1.25" />
       </map>
     </option>

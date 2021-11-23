@@ -7,10 +7,50 @@
     android:padding="@dimen/box_inset_layout_padding"
     tools:context=".ResultActivity"
     tools:deviceIds="wear">
-
-    <FrameLayout
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/inner_frame_layout_padding"
-        app:layout_boxedEdges="all"/>
+        android:orientation="vertical"
+        android:padding="@dimen/inner_frame_layout_padding">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/aquamarine"
+            android:text="Go to \n WorldSkills 2019"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:paddingLeft="20dp"
+            android:text="10.000 steps"
+            android:textColor="@color/white"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            android:textAlignment="textStart"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Send result"
+            android:onClick="take_result"
+            android:background="@drawable/solid"/>
+
+
+    </LinearLayout>
+</ScrollView>
 </androidx.wear.widget.BoxInsetLayout>

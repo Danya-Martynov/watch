@@ -28,28 +28,33 @@
         <EditText
             android:id="@+id/email"
             android:layout_width="110dp"
-            android:layout_height="32dp"
+            android:layout_height="28dp"
             android:layout_gravity="center"
+            android:background="@drawable/corner"
             android:ems="10"
+            android:hint="  E-mail"
             android:inputType="textPersonName"
             android:text=""
-            android:hint="  E-mail"
-            android:textColorHint="@color/aquamarine"
             android:textColor="@color/aquamarine"
-            android:textSize="10dp" />
+            android:textColorHint="@color/aquamarine"
+            android:textSize="10dp"
+            android:padding="5dp"/>
 
         <EditText
             android:id="@+id/password"
             android:layout_width="110dp"
-            android:layout_height="32dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="7dp"
             android:layout_gravity="center"
+            android:background="@drawable/corner"
             android:ems="10"
+            android:hint="  Password"
             android:inputType="textPersonName"
             android:text=""
-            android:hint="  Password"
-            android:textColorHint="@color/aquamarine"
             android:textColor="@color/aquamarine"
-            android:textSize="10dp"/>
+            android:textColorHint="@color/aquamarine"
+            android:textSize="10dp"
+            android:padding="5dp"/>
 
         <Button
             android:id="@+id/button"
@@ -57,11 +62,12 @@
             android:layout_height="26dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@color/aquamarine"
+            android:background="@drawable/solid"
             android:onClick="main"
             android:text="Sign-in"
             android:textAllCaps="false"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            />
 
     </LinearLayout>
 </androidx.wear.widget.BoxInsetLayout>
